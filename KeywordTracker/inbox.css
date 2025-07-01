@@ -1,6 +1,6 @@
 .kt-inbox-entry {
   padding: 5px;
-  color: var(--text-normal);
+  color: var(--text-default);
 }
 
 .kt-inbox-entry:not(:last-child) {
@@ -26,7 +26,7 @@
 }
 
 .kt-username {
-  color: var(--text-normal);
+  color: var(--text-default);
   margin-left: -2px;
 }
 
