@@ -462,7 +462,7 @@ module.exports = (Plugin, Library) => {
 				};
 				if (sortedMatches.length === 0) {
 					root.textContent = 'No recent matches.';
-					root.setAttribute('style', 'line-height: 90px; text-align: center;	color: var(--text-normal);');
+					root.setAttribute('style', 'line-height: 90px; text-align: center;	color: var(--text-default);');
 				} else {
 					for(let msg of sortedMatches) {
 						root.appendChild(matchEntry(msg));
